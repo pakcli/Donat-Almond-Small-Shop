@@ -1,0 +1,20 @@
+{
+  "name": "sweet-crumb",
+  "version": "1.0.0",
+  "description": "Sweet Crumb Donut Shop Website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "sass": "^1.70.0"
+  },
+  "dependencies": {
+    "firebase": "^10.7.2"
+  }
+}
